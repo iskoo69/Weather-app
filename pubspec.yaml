@@ -1,0 +1,17 @@
+name: weather_app
+description: Weather App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+flutter:
+  uses-material-design: true
